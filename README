@@ -1,19 +1,19 @@
-Linux kernel
-============
+# Device Tree for Infinix Note 30i (X6716)
 
-There are several guides for kernel developers and users. These guides can
-be rendered in a number of formats, like HTML and PDF. Please read
-Documentation/admin-guide/README.rst first.
+The Infinix Note 30i (codenamed _"X6716"_) is a mid-range smartphone from Infinix.
 
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.  The formatted documentation can also be read online at:
+It was released in May 2023.
 
-    https://www.kernel.org/doc/html/latest/
+## Device specifications
 
-There are various text files in the Documentation/ subdirectory,
-several of them using the Restructured Text markup notation.
-See Documentation/00-INDEX for a list of what is contained in each file.
-
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)
+Chipset | MediaTek Helio G85 (MT6768)
+GPU     | Mali-G52 MC2
+Memory  | 8 GB RAM
+Shipped Android Version | 13 (XOS 13)
+Storage | 128 GB / 256 GB
+Battery | Li-Po 5000 mAh, non-removable, 33W
+Display | 1080 x 2400 pixels, 6.66 inches, AMOLED, 60Hz
+Camera  | 64 MP (wide) + 2 MP (depth) + QVGA / 16 MP (front)
